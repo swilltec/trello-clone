@@ -1,6 +1,33 @@
-# Getting Started with Create React App
+# Building Trello with Drag and Drop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Trello Clone was built with using React and Typescript. To simplify the process of creating a react app, we will use create-react-app. It is a tool that will generate
+the file structure and automatically create all the settings files for our project. If you’ve
+worked with React before - you might be familiar with it but if you haven’t yet - no worries, You just have to follow the
+steps in this project exactly to get it up and running.
+
+## Prerequisites
+- First of all, you need to know how to use the command line. On Mac, you can
+use Terminal.app. On Windows I recommend using Cygwin17 or
+Cmder
+- You will need a code editor with Typescript support. I recommend using VSCode, it
+supports Typescript out of the box.
+- Make sure you have Node 10.16.0 or later
+- You also need node package managers. This project was built using Yarn. You can 
+ remove the yarn.lock files, remove if you want to use npm to install dependencies. 
+
+
+## Get started
+
+- Install yarn (optional)
+```sh  
+npm install --global yarn
+```
+
+```sh
+ yarn create-react-app --template typescript trello-clone
+
+```
 
 ## Available Scripts
 
@@ -41,6 +68,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
